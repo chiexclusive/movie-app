@@ -1,8 +1,8 @@
 import { FC, useRef, useState } from "react";
-import Header from "../components/Header";
-import Jumbotron from "../components/Jumbotron";
-import MovieSection from "../components/MovieSection";
-import SearchBar from "../components/SearchBar";
+import Header from "../Components/Header";
+import Jumbotron from "../Components/Jumbotron";
+import MovieSection from "../Components/MovieSection";
+import SearchBar from "../Components/SearchBar";
 import styles from "../styles/Home.module.scss";
 import { debounce } from "lodash";
 

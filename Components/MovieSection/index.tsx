@@ -5,7 +5,6 @@ import styles from "./index.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useGetMoviesQuery } from "../../services/movieService";
 import { capitalize } from "lodash";
-import { useAppSelector } from "../../redux/hooks";
 import Loader from "../Loader";
 
 /**
