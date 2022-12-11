@@ -11,7 +11,7 @@ import Loader from "../Loader";
 /**
  * @name MovieSection
  * @component
- * @param {string} type
+ * @param {string} type - type
  * @returns {JSX.Element} MovieSection
  */
 const MovieSection: FC<{

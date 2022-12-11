@@ -3,10 +3,10 @@ import { FC, ReactElement } from "react";
 /**
  * @name Loader
  * @component
- * @param {object} props
- * @param {string} props.style
- * @param {string} props.className
- * @returns {JSX.Element}
+ * @param {object} props - props
+ * @param {string} props.style - style props
+ * @param {string} props.className - prop classes
+ * @returns {JSX.Element} element
  */
 const Loader: FC<{
   style?: any;

@@ -5,8 +5,8 @@ import styles from "./index.module.scss";
 /**
  * @name SearchBar
  * @component
- * @param {object} props
- * @param {function} props.onChange
+ * @param {object} props - props
+ * @param {Function} props.onChange - onChange callback
  * @returns {JSX.Element} SearchBar
  */
 const SearchBar: FC<{ onChange: (arg: string) => void }> = ({ onChange }) => {
