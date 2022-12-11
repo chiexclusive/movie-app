@@ -1,0 +1,64 @@
+@import '../../styles/theme.scss';
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//M=O=V=I=E  S=E=C=T=I=O=N   S=T=Y=L=E=S
+
+.category{
+   margin-top: 49px;
+   &__header{
+      padding-left: 77px;
+      padding-right: 77px;
+      @media screen and (max-width: 729px) {
+         padding-left: 28px;
+         padding-right: 28px;
+      }
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px;
+      color: black;
+      margin-bottom: 22px;
+   }
+   &__section{
+      // display: flex;
+      // grid-gap: 13px;
+      // grid-template-columns: repeat(5, minmax(auto, 1fr));
+   }
+}
+
+.product{
+   padding: 10px;
+   gap: 10px;
+   width: 300px !important;
+   height: 300px !important;
+   @media screen and (max-width: 729px) {
+      width: 200px !important;
+      height: 200px !important;
+   }
+   &:not(.loader){
+      background: rgba(130, 130, 130, 0.2)
+   }
+   border-radius: 12px;
+   flex-shrink: 0;
+   position: relative;
+   
+   &__name{
+      transition: all 1s ease;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px;
+      opacity: 0;
+      display: flex;
+      background-color: black;
+      @media screen and (max-width: 729px) {
+         font-size: 18px;
+      }
+      &:hover{
+         opacity: .85;
+      }
+   }
+}

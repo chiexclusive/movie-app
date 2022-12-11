@@ -1,0 +1,34 @@
+@import '../../styles/theme.scss';
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//S=E=A=R=C=H   B=A=R   S=T=Y=L=E=S
+
+.search{
+        padding-top: 77px;
+        padding-left: 77px;
+        padding-right: 77px;
+        @media screen and (max-width: 729px) {
+                padding-left: 28px;
+                padding-right: 28px;
+        }
+        & label{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+        } 
+        & input{
+                width: 100%;
+                height: 54px;
+                border: 1px solid #000000;
+                flex: none;
+                padding-left: 20px;
+                padding-right: 20px;
+                order: 1;
+                flex-grow: 0;
+        }  
+}

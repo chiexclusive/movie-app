@@ -1,0 +1,39 @@
+@import '../../styles/theme.scss';
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//H=E=A=D=E=R  S=T=Y=L=E=S
+
+.header{
+        height: 140px;
+        padding-left: 77px;
+        background: $dark-grey;
+        @media screen and (max-width: 834px) {
+                justify-content: center;
+                padding-left: unset;
+        }
+        @media screen and (max-width: 321px) {
+                justify-content: center;
+                padding-left: unset;
+                height: 67px;
+        }
+        &__placeholder{
+                width: 193px;
+                height: 60px;
+                @media screen and (max-width: 321px) {
+                        width: 108px;
+                        height: 33.58px;
+                        padding: 11px;
+                }
+                left: 77px;
+                border: 1px solid #FFFFFF;
+                padding: 19px;
+                & div{
+                        width: 156.7px;
+                        height: 32.94px;
+                }
+        }
+}

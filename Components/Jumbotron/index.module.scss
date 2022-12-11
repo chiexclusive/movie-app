@@ -1,0 +1,48 @@
+@import '../../styles/theme.scss';
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//=========================================
+//J=U=M=B=O=T=R=O=N  S=T=Y=L=E=S
+
+.jumbo{
+        height: 550px;
+        background: $light-grey;
+         @media screen and (max-width: 321px) {
+                height: 257px
+        }
+        & .imageContainer{
+                height: 100%;
+                & img{
+                        height: 100%;
+                        width: 100vw;
+                        object-fit: cover;
+                        max-width: unset;                        
+                }
+        }
+        &__text{
+                padding: 77px;
+                font-weight: 700;
+                font-size: 72px;
+                line-height: 94px;
+                letter-spacing: -0.05em;
+                & h1{
+                        width: 490px;
+                }
+                 @media screen and (max-width: 834px) {
+                        justify-content: center;
+                        text-align: center;
+                }
+                 @media screen and (max-width: 520px) {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: clamp(28px, 2.5vw, 72px);
+                        line-height: 36px;
+                        text-align: center;
+                       letter-spacing: -0.02em;
+                        padding: 10px;
+                }
+        }
+}

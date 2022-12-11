@@ -1,0 +1,10 @@
+{
+  "extends":[ "next/core-web-vitals", "plugin:jsdoc/recommended"],
+  "plugins": [
+        "jsdoc"
+    ],
+    "rules": {
+      "jsdoc/check-tag-names": 0,
+      "jsdoc/no-undefined-types": 0
+    }
+}
